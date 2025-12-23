@@ -1,0 +1,10 @@
+alert("Script placed in HEAD section");
+alert("Welcome to our website!");
+alert("Welcome to JavaScript!");
+alert("Welcome to JS Land...\nHappy Coding!");
+alert("Welcome to JS Land...");
+alert("Happy Coding!");
+console.log("Hello... I can run JS through my web browser's console");
+alert("Script before page HTML");
+alert("Script inside page HTML");
+alert("Script after page HTML");
