@@ -1,0 +1,38 @@
+    body {
+      font-family: Arial;
+      padding: 30px;
+      background-image: url("https://st.depositphotos.com/1518767/4298/i/950/depositphotos_42984257-stock-photo-javascript-against-futuristic-black-and.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .box {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table, th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #eaeaea;
+    }
