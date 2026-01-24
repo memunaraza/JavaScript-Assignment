@@ -1,0 +1,35 @@
+    body {
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+        padding: 30px;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.384);
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    h1 {
+        text-align: center;
+        color: #00e6e6;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        border-left: 4px solid #00e6e6;
+        color: #00e6e6;
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+
+    p {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 6px;
+        line-height: 1.6;
+    }
