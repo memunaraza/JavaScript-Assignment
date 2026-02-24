@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Profile Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <div class="form-card">
+    <h2>Create Profile</h2>
+
+    <div class="image-upload">
+      <img id="previewImage" src="https://via.placeholder.com/130" alt="Profile">
+      <label for="imageInput" class="upload-icon">📷</label>
+      <input type="file" id="imageInput" accept="image/*" hidden>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="name" placeholder="Full Name">
+      <input type="email" id="email" placeholder="Email Address">
+      <input type="number" id="age" placeholder="Age">
+      <textarea id="bio" placeholder="Short Bio"></textarea>
+    </div>
+
+    <button id="submitBtn">Create Profile</button>
+  </div>
+
+  <div class="profile-card" id="profileCard">
+    <img id="cardImage">
+    <h3 id="cardName"></h3>
+    <p id="cardEmail"></p>
+    <p id="cardAge"></p>
+    <p id="cardBio"></p>
+  </div>
+
+</div>
+
+<div class="toast" id="toast">Profile Created Successfully 🎉</div>
+
+<script src="script.js"></script>
+</body>
+</html>

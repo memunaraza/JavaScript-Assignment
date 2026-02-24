@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>1. Alert Box on Link Click</h2>
+    <a href="#" onclick="showAlert(event)">Click me for alert</a>
+
+    <h2>2. Mobile Images Click Alert</h2>
+    <img src="https://via.placeholder.com/150?text=Mobile+1" alt="Mobile 1" onclick="imageAlert('Mobile 1')">
+    <img src="https://via.placeholder.com/150?text=Mobile+2" alt="Mobile 2" onclick="imageAlert('Mobile 2')">
+    <img src="https://via.placeholder.com/150?text=Mobile+3" alt="Mobile 3" onclick="imageAlert('Mobile 3')">
+
+    <h2>3. Student Records Table with Delete Button</h2>
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Mark</td>
+            <td>101</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>102</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>103</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Lucy</td>
+            <td>104</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Emma</td>
+            <td>105</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>106</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>107</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Michael</td>
+            <td>108</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Olivia</td>
+            <td>109</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>110</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+
+    <h2>4. Image Hover Change</h2>
+    <img id="hoverImage" src="https://via.placeholder.com/200?text=Original" 
+         onmouseover="changeImage()" 
+         onmouseout="resetImage">
+
+    <h2>5. Counter with Increase/Decrease</h2>
+    <div class="counter">
+        Counter: <span id="counterValue">0</span>
+        <button onclick="increaseCounter()">Increase</button>
+        <button onclick="decreaseCounter()">Decrease</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
